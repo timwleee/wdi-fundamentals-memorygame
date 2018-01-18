@@ -30,16 +30,17 @@ header {
 }
 nav {
 	background-color: #00A6B3;
-	color: #FFFFFF;
-	padding: 20px 0 20px 0;
+	/*color: #FFFFFF;*/
+	padding: 20px 0;
 }
 a {
-	margin: 0 20px 0 20px;
+	margin: 0 20px;
 	font-family: raleway;
-	color: blue;
+	color: white;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 18px
+	border-bottom: 2px solid transparent;
 }
 img {
 	margin: 40px 8px 0 8px;
@@ -77,7 +78,7 @@ a {
 	border-bottom: 2px solid transparent;
 }
 a:hover {
-	border-color: white;
+	border-bottom: 2px solid white;
 }
 div {
 	padding-bottom: 30px;
